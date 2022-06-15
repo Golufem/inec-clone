@@ -1,0 +1,54 @@
+body{
+    background-color: bisque;
+}
+
+#loginform{
+    width: 30%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(89, 89, 145);
+    padding: 3%;
+    border-radius: 4%;
+}
+
+button{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-self: center;
+}
+.submit{
+    margin: auto;
+    /* background-color: red; */
+    display: flex;
+    margin-top: 2rem;
+}
+input{
+    margin-top: 0.8rem;
+    margin-bottom: 0.6rem;
+}
+.error{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
+    width: max-content;
+}
+#usersList{
+    margin-top: 1.5rem;
+}
+li{
+    list-style-type: none;
+    list-style-position: outside;
+}
+
+@media screen and (max-width: 700px) {
+    #loginform{
+        width: 350px
+    }
+  }
+  
