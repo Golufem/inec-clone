@@ -1,0 +1,14 @@
+.delete, input[type= "submit"]{
+    float: right;
+}
+.inline{
+    display: inline;
+    width: 70%;
+}
+li:nth-child(odd){
+    background-color: #e3e3e3;
+}
+
+li:nth-child(even){
+    background-color: #918c8c;
+}
